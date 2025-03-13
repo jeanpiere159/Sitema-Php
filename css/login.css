@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/home-office-gf0734ba00_1920.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+h1{
+    font: 25px sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contenedor{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font: 17px sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #b3adad;
+    margin-bottom: 10px;
+    
+}
+.vinculo{
+    font: 15px sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.vinculo a{
+    color: #eea13c;
+}
+button{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background-color: #f18339;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #f07320;
+}
